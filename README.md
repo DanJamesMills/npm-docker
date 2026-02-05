@@ -92,6 +92,9 @@ GoAccess runs as an internal service and should be accessed **through NPM** for 
    - **Scheme:** `http`
    - **Forward Hostname/IP:** `goaccess`
    - **Forward Port:** `7880`
+   - **Cache Assets:** ✅ Enable
+   - **Block Common Exploits:** ✅ Enable
+   - **WebSockets Support:** ✅ **Enable (required for real-time updates)**
    - **SSL:** ✅ Enable with Let's Encrypt certificate
    - **Access List:** ✅ Create and assign one for authentication
    
@@ -108,7 +111,9 @@ GoAccess runs as an internal service and should be accessed **through NPM** for 
 - **Single entry point** - no extra ports to expose
 - **Same security model** as your other services
 
-The dashboard updates in real-time and shows:
+⚠️ **Important:** Make sure **WebSockets Support** is enabled in the NPM proxy host settings for real-time updates to work!
+
+The dashboard updates automatically every 5 seconds and shows:
 - Unique visitors and requests
 - Bandwidth usage
 - Top URLs and referrers

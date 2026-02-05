@@ -69,6 +69,7 @@ services:
     environment:
       TZ: "${TZ}"
       SKIP_ARCHIVED_LOGS: "False"
+      HTML_REFRESH: "5"
     volumes:
       - ./data/logs:/opt/log:ro
     healthcheck:
