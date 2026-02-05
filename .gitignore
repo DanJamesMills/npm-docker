@@ -1,0 +1,11 @@
+# env files
+.env
+
+# runtime data
+/data
+/letsencrypt
+/mysql
+/goaccess
+
+# OS
+.DS_Store
