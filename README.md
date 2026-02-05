@@ -123,7 +123,7 @@ The dashboard updates in real-time and shows:
 - **NPM Advanced Config:** https://nginxproxymanager.com/advanced-config/
 - **GoAccess Manual:** https://goaccess.io/man
 - **Docker Compose Docs:** https://docs.docker.com/compose/
-- **This Repo:** https://github.com/yourusername/npm-docker (⭐ Star if helpful!)
+- **This Repo:** https://github.com/DanJamesMills/npm-docker (⭐ Star if helpful!)
 
 ## Resetting the admin password (database access)
 
